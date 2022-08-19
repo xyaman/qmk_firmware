@@ -2,6 +2,12 @@
 
 #include "config_common.h"
 
+#define VENDOR_ID       0x1234
+#define PRODUCT_ID      0x5678
+#define DEVICE_VER      0x0001
+#define MANUFACTURER    QMK
+#define PRODUCT         TRACKPOINT-DEMO
+
 #define MATRIX_ROWS 1
 #define MATRIX_COLS 3
 

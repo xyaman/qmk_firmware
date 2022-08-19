@@ -18,6 +18,13 @@
 
 #include "config_common.h"
 
+/* USB Device descriptor parameter */
+#define VENDOR_ID       0xBEEF
+#define PRODUCT_ID      0x0007
+#define DEVICE_VER      0x0001
+#define MANUFACTURER    Bratzworth
+#define PRODUCT         6key
+
 /* key matrix size */
 #define MATRIX_ROWS 2
 #define MATRIX_COLS 3
